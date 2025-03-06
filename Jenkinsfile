@@ -1,14 +1,14 @@
 pipeline {
     agent any
-    stages {
-        stage ('clone'){
+    stages{
+        stage('clone'){
             steps{
                 sh 'echo "clone"'
             }
         }
     stage('test'){
         steps{
-            sh 'echo "test'
+            sh 'echo "test"'
         }
     }    
     stage('createfile'){
